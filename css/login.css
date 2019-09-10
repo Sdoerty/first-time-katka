@@ -73,13 +73,14 @@ footer p a:hover {
   height: 550px;
   background: #fff;
   position: relative;
-  top: 150px;
+  top: 90px;
   text-align: center;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
           box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 .logo {
+  z-index: 25;
   top: 50px;
   width: 100px;
   height: 100px;
@@ -213,3 +214,209 @@ input[type='submit']:hover {
     }
 }
 
+
+
+
+
+
+
+
+
+/*        --------           BEGINNING ADAPTIVE STYLE     --------          */
+
+
+@media (max-width:1600px) {
+    
+}
+
+@media (max-width:1440px) {
+    
+}
+
+/*-- w3l-agile --*/
+/*-- agileits --*/
+@media (max-width:1366px) {
+  .main {
+  width: 340px;
+  margin:auto;
+  height: 470px;
+  background: #fff;
+  position: relative;
+  top: 60px;
+  text-align: center;
+}
+
+.logo {
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 95px;
+}
+form {
+  top: 72.25px;
+  position: relative;
+}
+form input {
+  display: block;
+  margin: 7.5px auto;
+}
+
+form h4{
+  margin-top: 30px;
+}
+
+h4 a {
+  color: #00ACC1;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+}
+h4 a:hover {
+  color: #000;
+}
+input[type='email'], input[type='password'], input[type='text'] {
+  width: 61%;
+  outline: none;
+  border-top: 0;
+  color: #00ACC1;
+  border-left: 0;
+  border-right: 0;
+  font-size: 14px;
+  padding: 26px;
+  font-weight: 300;
+  border-bottom: 1px solid #00ACC1;
+}
+
+
+input[type='submit'] {
+  color: #fff;
+  width: 107px;
+  height: 35.7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 35.7px;
+  border-radius: 4px;
+  transition: 200ms ease-out;
+  -webkit-box-shadow: 0 0 10px #00ACC1;
+          box-shadow: 0 0 10px #00ACC1;
+ background: #00ACC1;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to left, #00BE9E , #56B4D3); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #00BE9E , #56B4D3);
+}
+input[type='submit']:hover {
+  width: 111px;
+  height: 37.4px;
+  transform: scale(1.1);
+  box-shadow: 0 0 40px #00ACC1;
+}
+.fa-envelope {
+  color: #00ACC1;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  font-size: 18px !important;
+  cursor: text;
+  transition: .2s ease-out;
+}
+
+.fa-lock {
+  color: #00ACC1;
+  position: absolute;
+  top: 103px;
+  left: 35px;
+  font-size: 18px !important;
+  cursor: text;
+  transition: .2s ease-out;
+}
+
+    
+}
+
+
+
+@media (max-width:991px) {
+
+ .main {
+  width: 331.5px;
+  margin:auto;
+  height: 480px;
+  background: #fff;
+  position: relative;
+  top: 60px;
+    
+}
+
+@media (max-width:800px) {
+  
+    
+}
+
+@media (max-width:768px) {
+ 
+
+}
+
+@media (max-width:736px) {
+
+   
+}
+
+@media (max-width:667px) {
+   
+
+}
+
+@media (max-width:640px) {
+    
+}
+
+@media (max-width:600px) {
+    
+}
+
+@media (max-width: 568px) {
+     
+}
+
+@media (max-width:480px) {
+    
+}
+
+@media (max-width:414px) {
+ .main {
+  width: 331.5px;
+  margin:auto;
+  height: 480px;
+  background: #fff;
+  position: relative;
+  top: 60px;
+   
+}
+
+@media (max-width:384px) {
+    
+}
+
+@media (max-width:375px) {
+    .main {
+  width: 331.5px;
+  margin:auto;
+  height: 480px;
+  background: #fff;
+  position: relative;
+  top: 60px;
+}
+
+@media (max-width:320px) {
+    
+}
