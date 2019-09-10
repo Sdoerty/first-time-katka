@@ -367,39 +367,65 @@ input[type='submit']:hover {
 }
 
 @media (max-width:736px) {
-
+   .main {
+  
+  top: 30px;
+}
    
 }
 
 @media (max-width:667px) {
-   
+      .main {
+  
+  top: 30px;
+}
 
 }
 
 @media (max-width:640px) {
-    
+       .main {
+  
+  top: 30px;
+}
 }
 
 @media (max-width:600px) {
-    
+       .main {
+  
+  top: 30px;
+}
 }
 
 @media (max-width: 568px) {
-     
+     .main {
+  
+  top: 30px;
+}
 }
 
 @media (max-width:480px) {
+  .main {
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 325px;
+  margin:auto;
+  height: 480px;
+  background: #fff;
+  position: relative;
+  top: 30px;
     
 }
 
 @media (max-width:414px) {
  .main {
-  width: 331.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 325px;
   margin:auto;
   height: 480px;
   background: #fff;
   position: relative;
-  top: 60px;
+  top: 30px;
    
 }
 
@@ -409,12 +435,14 @@ input[type='submit']:hover {
 
 @media (max-width:375px) {
     .main {
-  width: 331.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 325px;
   margin:auto;
   height: 480px;
   background: #fff;
   position: relative;
-  top: 60px;
+  top: 30px;
 }
 
 @media (max-width:320px) {
