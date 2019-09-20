@@ -1845,6 +1845,8 @@ fieldset#body {
 }
 
 .login-pop {
+    white-space: nowrap;
+    display: inline-block;
     width: 100%;
     margin-top: 0.6em;
     margin-left: -65px;
@@ -4157,6 +4159,8 @@ a.not {
         margin-left: 2%;
         margin-top: 3%;
     }
+
+    
 
     .modal-dialog.facebook {
         width: 650px;
