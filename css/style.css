@@ -4160,6 +4160,22 @@ a.not {
         margin-top: 3%;
     }
 
+    .login-pop {
+        float: left;
+    }
+
+    #loginpop{
+        display: block;
+    }
+
+    .klkl{
+        display: inline-block;
+    }
+
+    .prfl{
+        display: inline-block;
+    }
+
     
 
     .modal-dialog.facebook {
@@ -4351,6 +4367,36 @@ a.not {
         margin-left: 2%;
         margin-top: 3%;
     }
+
+     .login-pop {
+        margin-right: 60px;
+    }
+
+    .form-search {
+        float: left;
+    width: 200px;
+    }
+    .form-search input {
+      width: 140px;
+    }
+    .login-pop {
+        float: left;
+    }
+
+    #loginpop{
+        display: block;
+    }
+
+    .klkl{
+        display: inline-block;
+    }
+
+    .prfl{
+        display: inline-block;
+    }
+
+
+
 
     img#jp_poster_0 {
         width: 520px !important;
@@ -4713,14 +4759,43 @@ a.not {
         overflow-y: hidden;
     }
 
-    .main-content{
-        margin-left: 1px;
-    }
-    
-    .toggle-btn{
-        margin-top: 6px;
+    .menu-right{
+        display: block;
     }
 
+    .form-search {
+        float: left;
+    width: 150px;
+    }
+    .form-search input {
+      width: 120px;
+    }
+
+    
+    .login-pop {
+        margin-right: 60px;
+    }
+
+    .form-search {
+        float: left;
+    width: 200px;
+    }
+    .form-search input {
+      width: 140px;
+    }
+   
+
+    #loginpop{
+        display: inline-block;
+    }
+
+    .klkl{
+        display: inline-block;
+    }
+
+    .prfl{
+        display: inline-block;
+    }
     .artist-grid {
         width: 50%;
         float: left;
@@ -4867,9 +4942,34 @@ a.not {
     }
 }
 
+@media (max-width: 525px) {
+     body{
+        overflow-y: hidden;
+    }
+
+    #loginpop{
+        float: left;
+    }
+
+    .menu-right{
+        display: block;
+    }
+
+    .form-search {
+        display: none;
+    }
+    .form-search input {
+      display: none;
+    }
+}
+
 @media (max-width:480px) {
     body{
         overflow-y: hidden;
+    }
+
+    .btninfo{
+        display: none;
     }
 
     .main-content{
@@ -5005,6 +5105,11 @@ a.not {
     body{
         overflow-y: hidden;
     }
+    
+    .btninfo{
+        display: none;
+    }
+
 
     .main-content{
         margin-left: 1px;
@@ -5135,16 +5240,23 @@ a.not {
 }
 
 @media (max-width:384px) {
+    .dropdown{
+        width: 30px;
+        height: 30px;
+    }
+
+    .music-left{
+        margin-top: -30px;
+    }
     footer p {
         font-size: 0.9em;
         padding-left: 2em;
     }
 
-    .login-pop {
+    #loginpop{
         float: left;
-        padding: 0;
-        margin-left: 0;
     }
+
 
     mg#jp_poster_0 {
         width: 290px !important;
@@ -5394,6 +5506,40 @@ a.not {
 }
 
 @media (max-width:375px) {
+
+
+    .btncreate {
+
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 19px;
+    border: solid 1px #4d4d4d;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font: 18px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    background: #00acbf;
+    -webkit-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    box-shadow: 0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+}
+
+.btncreate:hover {
+    padding: 13px 19px;
+    font: 18x Arial, Helvetica, sans-serif;
+}
+
+.btncreate:active {
+    padding: 13px 19px;
+    font: 18px Arial, Helvetica, sans-serif;
+}
+
+
+
     .content-grid:hover .inner-info {
         padding: 3px 10px;
         width: 143px;
@@ -5511,6 +5657,10 @@ a.not {
     .toggle-btn {
         font-size: 17px;
         margin: 0.5em 0 0 0.5em;
+    }
+
+     #loginpop{
+        float: left;
     }
 
     .modal-dialog.facebook {
