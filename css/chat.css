@@ -18,11 +18,17 @@
   .detailmes{
     display: inline-block;
     float: left;
-    width: 106%;
+    width: 107%;
   }
+
+  .detailmes h2{
+    margin-right: 75px;
+    text-align: center;
+  }
+
   .chat-container {
     margin-left: -50px;
-    height: 95vh;
+    height: 75vh;
     width: inherit;
   }
 }
@@ -123,6 +129,7 @@
   align-items: center;
   justify-content: flex-end;
   padding: 0 1rem;
+  margin-top: 5px;
   width: 100%;
 }
 @media only screen and (max-width: 900px) {
