@@ -80,6 +80,7 @@ table tr:hover {
     color: #fff; /* Цвет текста при наведении */
 }
 @media screen and (max-width: 600px) {
+ 
   table {
     border: 0;
   }
@@ -90,12 +91,10 @@ table tr:hover {
     display: none;
   }
   table tr {
-    border-top: 3px dotted #ddd;
-    border-bottom: 3px dotted #ddd;
     display: block;
+    background-color: #EDEDED;
   }
   table td {
-    border-bottom: 1px solid #ddd;
     display: block;
     font-size: .8em;
     text-align: right;

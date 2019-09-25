@@ -15,17 +15,16 @@ select{
 }
 
 
-.crdet h3{
-    margin-top: 35px;
-}
 
-.crdet select,input,textarea{
+.crdet select,input[type="text"],input[type="datetime-local"],input[type="submit"],textarea{
     width: 100%;
     height: 35px;
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 15px;
     outline:none;
+    background-color: white;
     border: 1px solid #00BE9E;
 }
 
@@ -120,6 +119,7 @@ button:focus:active{
 }
 
 .slineinfo{
+    margin-top: 90px;
 
 }
 
@@ -379,6 +379,20 @@ h5 {
 .btnnav {
     margin-top: 10px;
     margin-right: 100px;
+}
+
+.btnleave {
+
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    padding: 7px 22px;
+    border: solid 1px #4d4d4d;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font: 14px Arial, Helvetica, sans-serif;
+
 }
 
 .btncreate {
@@ -1300,7 +1314,7 @@ footer p a:hover {
 }
 
 .music-right {
-    height: 900px;
+    height: 980px;
     float: left;
     width: 33%;
     margin-left: 2%;
@@ -4160,6 +4174,10 @@ a.not {
         margin-top: 3%;
     }
 
+    .detailusersscroll{
+    margin-top: 1px;
+}
+
     .login-pop {
         float: left;
     }
@@ -4683,6 +4701,14 @@ a.not {
         overflow-y: hidden;
     }
 
+    div#page-wrapper {
+        padding: 1em 0.5em 2em 0.5em;
+    }
+
+    .flineinfo{
+        margin-top: 15px;
+    }
+
     .main-content{
         margin-left: 1px;
     }
@@ -4943,9 +4969,11 @@ a.not {
 }
 
 @media (max-width: 525px) {
+
      body{
         overflow-y: hidden;
     }
+
 
     #loginpop{
         float: left;
@@ -5301,13 +5329,6 @@ a.not {
         margin-top: 0;
     }
 
-    .player {
-        float: left;
-        width: 45%;
-        margin-top: 46px;
-        padding: 0;
-    }
-
     .next-top li a.ar2 {
         left: 33%;
         position: absolute;
@@ -5489,7 +5510,7 @@ a.not {
     }
 
     div#page-wrapper {
-        padding: 5em 0.5em 2em 0.5em;
+        padding: 3em 0.5em 2em 0.5em;
     }
 
     .music-right {
