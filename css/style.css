@@ -98,8 +98,8 @@ button:focus:active{
 }
 
 #spanbike{
+    float: right;
     font-size: 24px;
-    margin-left: 25px;
      color: #00B7CC;
      border: 1px solid;
      border-radius: 35px;
