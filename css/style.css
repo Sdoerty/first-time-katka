@@ -147,9 +147,6 @@ button:focus:active{
 text-align: center;
 }
 
-.first-plate2{
-    margin-left: 25px;
-}
 
 .first-plate3{
     float: right;
@@ -4648,7 +4645,7 @@ a.not {
 
     .prfinfo{
         width: 130%;
-        margin-left: -70px;
+        margin-left: -58px;
     }
 
 
@@ -4993,7 +4990,7 @@ a.not {
     
     .prfinfo{
         width: 130%;
-        margin-left: -70px;
+        margin-left: -50px;
     }
 
 
@@ -5018,8 +5015,14 @@ a.not {
         overflow-y: hidden;
     }
 
+    .prfinfo{
+        width: 130%;
+        margin-left: -40px;
+    }
+
       #spanbikeprofile{
-        padding-top: -7px;
+
+        font-size: 17px;
     }
 
     .btninfo{
@@ -5162,7 +5165,7 @@ a.not {
     .prfinfo{
         
         width: 130%;
-        margin-left: -50px;
+        margin-left: -35px;
     }
     
     .btninfo{
@@ -5302,6 +5305,11 @@ a.not {
     .dropdown{
         width: 30px;
         height: 30px;
+    }
+
+    .prfinfo{
+        width: 130%;
+        margin-left: -28px;
     }
 
     .music-left{
@@ -5580,6 +5588,11 @@ a.not {
 
 }
 
+.prfinfo{
+        width: 130%;
+        margin-left: -23px;
+    }
+
 .btncreate:hover {
     padding: 13px 19px;
     font: 18x Arial, Helvetica, sans-serif;
@@ -5709,6 +5722,11 @@ a.not {
     .toggle-btn {
         font-size: 17px;
         margin: 0.5em 0 0 0.5em;
+    }
+
+    .prfinfo{
+        width: 130%;
+        margin-left: -10px;
     }
 
      #loginpop{

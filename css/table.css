@@ -93,10 +93,11 @@ table tr:hover {
   table tr {
     display: block;
     background-color: #EDEDED;
+    
   }
   table td {
     display: block;
-    font-size: .8em;
+    font-size: 14px;
     text-align: right;
   }
   table td:before {
