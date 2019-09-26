@@ -137,13 +137,14 @@ button:focus:active{
 }
 
 .first-plate img{
-    width: 250px;
-    height: 250%;
-    border-radius: 15px;
+    width: 150px;
+    height: 150%;
+    border-radius: 100px;
+    border: 1px solid #89D6DF;
 }
 
 .first-plate{
-
+text-align: center;
 }
 
 .first-plate2{
@@ -4645,6 +4646,12 @@ a.not {
         top: -22px;
     }
 
+    .prfinfo{
+        width: 130%;
+        margin-left: -70px;
+    }
+
+
     .footer {
         padding: 2em 3em 5em 5em;
     }
@@ -4975,6 +4982,21 @@ a.not {
     }
 
 
+
+    .mainprofile{
+        width: inherit;
+    }
+
+    .first-plate2{
+        width: inherit;
+    }
+    
+    .prfinfo{
+        width: 130%;
+        margin-left: -70px;
+    }
+
+
     #loginpop{
         float: left;
     }
@@ -4994,6 +5016,10 @@ a.not {
 @media (max-width:480px) {
     body{
         overflow-y: hidden;
+    }
+
+      #spanbikeprofile{
+        padding-top: -7px;
     }
 
     .btninfo{
@@ -5132,6 +5158,11 @@ a.not {
 
     body{
         overflow-y: hidden;
+    }
+    .prfinfo{
+        
+        width: 130%;
+        margin-left: -50px;
     }
     
     .btninfo{
